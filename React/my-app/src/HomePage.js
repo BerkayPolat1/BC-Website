@@ -1,3 +1,5 @@
+// Home page js file is used to gather the components. 
+
 import Navbar from "./navbar/Navbar";
 import RCLockup from "./rc-lockup/RCLockup";
 import SearchBar from "./search-bar/SearchBar";
