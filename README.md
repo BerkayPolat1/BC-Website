@@ -1,2 +1,2 @@
-# BC-Website
-The Official Website of Bosphorus Chronicle of Robert College
+# Bosphorus Chronicle Website
+The Official Website of Bosphorus Chronicle of Robert College.
