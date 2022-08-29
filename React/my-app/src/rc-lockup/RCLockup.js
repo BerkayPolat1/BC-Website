@@ -1,3 +1,5 @@
+// Lockup files are used to edit the home page RC and BC icons.
+
 import classes from "./RCLockup.module.css";
 import BCLogo from "../assets/BCTitle.png";
 import RCLogo from "../assets/RCLogo1.png";
