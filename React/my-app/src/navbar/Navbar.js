@@ -4,9 +4,9 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 
 function Navbar() {
     return (
-      <ul className={classes.navbar_container}>
+      <ul className={classes.navbar_container}> 
       <DropdownButton className={classes.navbar_element} id="dropdown-basic-button" title="Topics">
-        <div className={classes.dropdown_menu}>
+        <div className={classes.dropdown_menu}> {/* The menu that appears after the "topic" navigation bar element is pressed. */}
           <Dropdown.Item className={classes.dropdown_element} href="/"> Entertainment</Dropdown.Item>
           <Dropdown.Item className={classes.dropdown_element} href="/"> Arts &amp; Science </Dropdown.Item>
           <Dropdown.Item className={classes.dropdown_element} href="/"> Sports </Dropdown.Item>
