@@ -1,0 +1,14 @@
+.search_bar_container {
+    width: 100%;
+    background-color: #A51717;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.search_bar_text {
+    color: rgba(219, 217, 217, 0.65);
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding-left: 3%;
+}
