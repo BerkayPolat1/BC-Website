@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom'
 import { Button } from './Button'
 import './Navbar.css'
 import Dropdown from './Dropdown'
+import Typewriter from 'typewriter-effect';
 
 
 function Navbar() {
 
+  
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false)
 
@@ -46,7 +48,9 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link to='/campus' className='nav-links' onClick={closeMobileMenu}>
-              Campus§§Student Life
+              <Typewriter options={{strings: ['Campus'], autoStart: true, loop: true, }}
+              />
+                
             </Link>
           </li>
           <li className='nav-item'>
