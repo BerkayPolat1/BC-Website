@@ -1,8 +1,10 @@
 .dropdown-menu {
     background: red;
     width: 200px;
-    position: absolute;
-    top: 290px;
+    position: relative;
+    flex-direction: column;
+    top: 110px;
+    right: 100px;
     list-style: none;
     text-align: start;
   }
