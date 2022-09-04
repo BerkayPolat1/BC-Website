@@ -46,9 +46,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/campus" className="nav-links" onClick={closeMobileMenu}>
-              <Typewriter
-                options={{ strings: ["Campus"], autoStart: true, loop: true }}
-              />
+              Campus
             </Link>
           </li>
           <li className="nav-item">

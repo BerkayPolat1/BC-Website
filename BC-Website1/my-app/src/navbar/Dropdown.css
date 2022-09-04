@@ -1,4 +1,5 @@
 .dropdown-menu {
+    z-index: 999;
     background: red;
     width: 200px;
     position: relative;
