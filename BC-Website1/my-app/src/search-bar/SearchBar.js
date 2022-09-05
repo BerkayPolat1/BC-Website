@@ -30,6 +30,7 @@ function SearchBar() {
 
   return (
     <div className={classes.bar}>
+      <p className={classes.red}>a</p>
       {barIsOpen ? <SearchBarOn /> : null}
       <div className={classes.link_icon}>
         <p className={classes.rc_text}>

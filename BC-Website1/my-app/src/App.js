@@ -11,6 +11,7 @@ import Signup from "./pages/sign-up";
 import Team from "./pages/team";
 import Topics from "./pages/topics";
 import All from "./pages/all";
+import Slider from "./news-carousel/slider";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/topics" element={<Topics />} />
           <Route path="/all" element={<All />} />
         </Routes>
+        <Slider />
     </Router>
   );
 }

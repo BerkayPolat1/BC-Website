@@ -25,7 +25,7 @@
   .nav-item {
     display: flex;
     align-items: center;
-    height: 80px;
+    height: 90px;
   }
   
   .nav-links {
@@ -35,8 +35,10 @@
   }
   
   .nav-links:hover {
-    border-radius: 4px;
-    border-top: black;
+    
+    border-style: solid none none none;
+    border-radius: 80px;
+    border-color: black;
     transition: all 0.2s ease-out;
   }
   
