@@ -1,6 +1,6 @@
 .container{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    display: flex;
+    flex-direction: row;
     gap: 10px;
     padding: 10px;
   }
@@ -22,8 +22,6 @@
 }
 
 .slider{
-    
-    padding-left: 100px;
     width: 900px;
     height: 90vh;
     position: relative;
@@ -32,12 +30,10 @@
 }
 
 .slide{
-    padding-left: 100px;
+    padding: 0.5rem 3%;
     position: absolute;
     top: 0;
     left: 0;
-    width: 900px;
-    height: 100%;
     opacity: 0;
     transform: translateX(-50%);
     transition: all .5s ease;
@@ -92,6 +88,7 @@
     opacity: 1;
     transform: translateX(0);
     transition: all 0.5s ease;
+    padding-top: 1rem;
 }
 
 .arrow {
