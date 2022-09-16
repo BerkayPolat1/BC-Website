@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import './slider.scss';
 import {sliderData} from './slider-data'
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
+import SideMenu from "./side-menu/SideMenu";
 
 
 
@@ -73,14 +74,9 @@ const Slider = () => {
                         )
                     })}
 
-                </div>
-              
-            </div>
-            <div className='item2'>
-                <p> will contain a list of nes titles and social creditantials currently takes 1/4 of the space</p>
-        
-            </div>
-            
+                </div>    
+            </div> 
+            <SideMenu />
         </div>
     )
 }

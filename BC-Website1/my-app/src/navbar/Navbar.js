@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Dropdown from "./Dropdown";
-import Typewriter from "typewriter-effect";
 
 function Navbar() {
   const [click, setClick] = useState(false);

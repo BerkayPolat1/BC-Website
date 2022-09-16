@@ -4,6 +4,10 @@ import { IconContext } from "react-icons";
 import SearchBarOn from "./SearchBarOn";
 import { useEffect, useState, useRef } from "react";
 
+
+// Further understand this function....
+//
+//
 let useClickOutside = (handler) => {
   let domNode = useRef();
 
@@ -20,6 +24,10 @@ let useClickOutside = (handler) => {
 
   return domNode;
 };
+
+//
+//
+//
 
 function SearchBar() {
   let [barIsOpen, setBarOpen] = useState(false);
