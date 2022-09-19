@@ -12,6 +12,7 @@ import Team from "./pages/team";
 import Topics from "./pages/topics";
 import All from "./pages/all";
 import Slider from "./news-carousel/slider";
+import { FooterContainer } from './containers/footer'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/all" element={<All />} />
         </Routes>
         <Slider />
+        <FooterContainer />
     </Router>
   );
 }
